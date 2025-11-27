@@ -81,4 +81,24 @@
 # print(f"A legkisebb elem a {min}")
 
 #Kérj be egy számot és döntsd el, hogy benne van-e az előre adott listában.
-lista
+lista = [3,5,8,12,34,1,6,9]
+szam = int(input("Kérek egy számot: "))
+vane = False
+
+for i in lista:
+    if lista[i] == szam
+        vane = True
+        break
+if vane == True:
+    print("Van találat")
+else:
+    print("NIncs találat")
+
+#vagy még jobb:
+lista = [3,5,8,12,34,1,6,9]
+szam = int(input("Kérek egy számot: "))
+if szam in lista:
+    print("Van találat")
+else:
+    print("NIncs találat")
+#9. feladat
