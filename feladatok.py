@@ -102,3 +102,9 @@ if szam in lista:
 else:
     print("NIncs találat")
 #9. feladat
+lista = [1,2,3,4,5,6,7,8,9,15,13,24]
+paros = []
+if i in range (len(lista)):
+    if lista[i] % 2 = 0:
+        paros.append(lista[i])
+print(paros)
